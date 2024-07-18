@@ -20,11 +20,16 @@ list_of_dir = [
                 f"src/{project_name}/entity/__init__.py",
                 f"src/{project_name}/pipeline/__init__.py",
                 f"src/{project_name}/constants/__init__.py",
+                f"src/{project_name}/retrieval_generation.py",
+                f"src/{project_name}/data_converter.py",
+                f"src/{project_name}/ingestion.py",
+                f"src/{project_name}/constants/__init__.py",
                 f"config/config.yaml",
                 f"params.yaml",
                 f"requirements.txt",
                 f"setup.py",
-                f"research/trials.ipynb"
+                f"research/trials.ipynb",
+                f"app.py"
               ]
 
 
