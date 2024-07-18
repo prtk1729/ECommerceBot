@@ -11,3 +11,7 @@ conda create -n ecom -y python=3.10
 conda activate ecom
 ```
 
+```bash
+pip install -r requirements.txt
+```
+
