@@ -2,7 +2,7 @@
 An End-to-End Ecommerce Bot leveraging LLMs
 
 
-# Running the Project
+# 1 How to run the Project
 ```bash
 conda create -n ecom -y python=3.10
 ```
@@ -44,5 +44,14 @@ sudo apt install python3-pip
 ```bash
 pip3 install -r requirements.txt --break-system-packages
 ```
+
+#### NOTE:
+- Add an inbound rule on EC2 with Port: 5000
+- Change the code and explicitly mention the port-no. to reflect the changes
+    - Change `app.run(debug = True)` to `app.run(host="0.0.0.0")`
+- Re-Run the instance with the updated code
+- Copy the public IP of the instance with Port: `5000`
+- Check on Browser
+
 
 
